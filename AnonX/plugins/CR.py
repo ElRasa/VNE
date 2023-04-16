@@ -15,30 +15,25 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["مطورين سي ار","المطورين","مطورين","مطورين cr"])
+    command(["مطورين فينوم","المطورين","مطورين","مطورين Venom"])
     & ~filters.edited
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/c973727bddf803e028539.jpg",
-        caption=f"""**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين cr ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**""",
+        photo=f"https://graph.org/file/fdc065a855d2c6b59ef96.jpg",
+        caption=f"""**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين فينوم ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒𝙏َِ𝙊َِ𝙈َِّّ ", url=f"https://t.me/DEV_TOM"), 
+                        "᳒𝙀𝙇𝙍𝘼𝙎𝘼𝙈 ‌𝅘𝅥𝅯 ", url=f"https://t.me/Mahmod777777"), 
                  ],[
                     InlineKeyboardButton(
-                        "ρ᥆kᥱꪔ᥆ꪀ", url=f"https://t.me/devpokemon"),
-                ],[
-                    InlineKeyboardButton(
-                        "𝐶𝑅𝐼𝑆𝑇𝐼𝑁", url=f"https://t.me/dr_criss"),
-                    InlineKeyboardButton(
-                        "ꪔᥲ️ꪀ᥆᥆", url=f"https://t.me/C1_I_I"),
+                        "𝗧𝗨𝗥𝗕𝗢 𖤍", url=f"https://t.me/A7A_BGAAD"),   
                 ],[
                 
                     InlineKeyboardButton(
-                        "★⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3"),
+                        "𝅘𝅥𝅯𝙎𝙊𝙐𝙍𝘾𝙀 𝙑𝙀𝙉𝙊𝙈 𝅘𝅥𝅯", url=f"https://t.me/Ve_m1"),
                 ],
 
             ]
@@ -55,7 +50,7 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["توم انجم","احمد","توم","مبرمج","TOM","tom"])
+    command(["الرسام","تربو","رسام","مبرمج","RASAM","rasam"])
     & filters.group
     & ~filters.edited
 )
@@ -63,7 +58,7 @@ async def yas(client, message):
     usr = await client.get_chat("DEV_TOM")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -76,7 +71,7 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["زين انجم","زين","زين","بوكمان","pokmon","pokman"])
+    command(["تربو","تربو","تربو","رسام","Turbo","Turbo"])
     & filters.group
     & ~filters.edited
 )
@@ -84,7 +79,7 @@ async def yas(client, message):
     usr = await client.get_chat("devpokemon")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯\n\n¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -97,7 +92,7 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["كريستين انجم","كريستين","كرستين","الدكتوره","cristin","كرستينه"])
+    command(["رسام","الرسام","رسام","محمود","رسام","رسام"])
     & filters.group
     & ~filters.edited
 )
@@ -105,7 +100,7 @@ async def yas(client, message):
     usr = await client.get_chat("dr_criss")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -118,7 +113,7 @@ async def yas(client, message):
     
 
 @app.on_message(
-    command(["مانو انجم","مانو","الممول","mano","Mano"])
+    command(["تربو","تربو","تربو","تربو","تربو"])
     & filters.group
     & ~filters.edited
 )
@@ -126,7 +121,7 @@ async def yas(client, message):
     usr = await client.get_chat("C1_I_I")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━⊶★━⩺**", 
+    await message.reply_photo(photo,       caption=f"**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -146,17 +141,17 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/c973727bddf803e028539.jpg",
-        caption=f"""**⩹⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس cr\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**⩹━━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━━⩺**""",
+        photo=f"https://graph.org/file/fdc065a855d2c6b59ef96.jpg",
+        caption=f"""**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس فينوم\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**⩹━━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒𝙏َِ𝙊َِ𝙈َِّّ", url=f"https://t.me/DEV_TOM"), 
+                        "᳒𝙀𝙇𝙍𝘼𝙎𝘼𝙈 ‌𝅘𝅥𝅯", url=f"https://t.me/Mahmod777777"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3"),
+                        "𝅘𝅥𝅯𝙎𝙊𝙐𝙍𝘾𝙀 𝙑𝙀𝙉𝙊𝙈 𝅘𝅥𝅯", url=f"https://t.me/Ve_m1"),
                 ],
 
             ]
@@ -174,17 +169,17 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/c973727bddf803e028539.jpg",
-        caption=f"""**⩹⊷━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس cr\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**⩹━━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━━⩺**""",
+        photo=f"https://graph.org/file/fdc065a855d2c6b59ef96.jpg",
+        caption=f"""**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس فينوم\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**⩹━━⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝━━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒𝙏َِ𝙊َِ𝙈َِّّ", url=f"https://t.me/DEV_TOM"), 
+                        "᳒𝙀𝙇𝙍𝘼𝙎𝘼𝙈 ‌𝅘𝅥𝅯", url=f"https://t.me/Mahmod777777"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3"),
+                        "𝅘𝅥𝅯𝙎𝙊𝙐𝙍𝘾𝙀 𝙑𝙀𝙉𝙊𝙈 𝅘𝅥𝅯", url=f"https://t.me/Ve_m1"),
                 ],
 
             ]

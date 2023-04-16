@@ -41,7 +41,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✨️ 𝙏َِ𝙊َِ𝙈 ✨️]ِ", url=f"https://t.me/DEV_TOM"
+                text="𝙀𝙇𝙍𝘼𝙎𝘼𝙈 ‌𝅘𝅥𝅯 ", url=f"https://t.me/Mahmod777777"
             ),
             InlineKeyboardButton(
                 text="👤 مطور البوت", user_id=OWNER
@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" ⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝ ", url=f"https://t.me/pp_g3"
+                text=" 𝅘𝅥𝅯𝙎𝙊𝙐𝙍𝘾𝙀 𝙑𝙀𝙉𝙊𝙈 𝅘𝅥𝅯", url=f"https://t.me/Ve_m1"
             )
         ],
      ]

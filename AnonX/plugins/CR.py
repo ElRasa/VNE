@@ -97,7 +97,7 @@ async def yas(client, message):
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("dr_criss")
+    usr = await client.get_chat("Mahmod777777")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**", 
@@ -118,7 +118,7 @@ async def yas(client, message):
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("C1_I_I")
+    usr = await client.get_chat("A7A_BGAAD")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯\n\n ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯𝗩𝗘𝗡𝗢𝗠𝅘𝅥𝅯𓏳𓏳𓏳𓏳𝅘𝅥𝅯**", 
